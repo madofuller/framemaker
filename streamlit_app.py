@@ -13,10 +13,11 @@ Image.open(image_one)
 #Second Image
 Image.open(image_two)
 
+
+box=(1,1,600,450)
 Image.Image.paste(image_one, image_two)
 
 fig = plt.figure()
 plt.imshow(image_one)
 plt.axis("off")
-box=(1,1,600,450)
 st.pyplot(fig)
