@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 #First Image
-image_one = Image.open("/iCloud\Desktop/christmas card.jpeg") 
+image_one = Image.open("/iCloud/Desktop/christmas card.jpeg") 
 
 #Second Image
 image_two = Image.open("/iCloud/Desktop/test.PNG")
