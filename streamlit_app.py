@@ -4,12 +4,13 @@ import matplotlib.pyplot as plt
 
 
 
-st.file_uploader("Upload Image")
+st.file_uploader(Frame)
+st.file_uploader(Art)
 #First Image
-image_one = Image.open("Capture.PNG") 
+image_one = Image.open(Art) 
 
 #Second Image
-image_two = Image.open("github.PNG")
+image_two = Image.open(Frame)
 
 Image.Image.paste(image_one, image_two)
 
