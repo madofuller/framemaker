@@ -1,5 +1,5 @@
 import streamlit as st
-
+From PIL import Image
 
 
 st.file_uploader("Upload Image")
