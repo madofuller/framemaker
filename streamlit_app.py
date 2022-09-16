@@ -1,7 +1,9 @@
 import streamlit as st
 from PIL import Image
-import matplotlib as plt
 
+
+
+st.file_uploader("Upload Image")
 #First Image
 image_one = Image.open("Capture.PNG") 
 
