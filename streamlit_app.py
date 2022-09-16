@@ -4,17 +4,12 @@ import matplotlib.pyplot as plt
 
 
 
-image_one = st.file_uploader("Frame")
-image_two = st.file_uploader("Art")
-
-
-Image.open(image_one) 
+#First Image
+image_one = Image.open("christmas card.jpeg") 
 
 #Second Image
-Image.open(image_two)
+image_two = Image.open("test.PNG")
 
-
-box=(1,1,600,450)
 Image.Image.paste(image_one, image_two)
 
 fig = plt.figure()
