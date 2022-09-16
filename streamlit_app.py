@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 
 
-image_one = st.file_uploader(Frame)
-image_two = st.file_uploader(Art)
+image_one = st.file_uploader()
+image_two = st.file_uploader()
 
 
 Image.open(image_one) 
