@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 
 
 #First Image
-image_one = Image.open("Desktop/christmas card.jpeg") 
+image_one = Image.open("christmas card.jpeg") 
 
 #Second Image
-image_two = Image.open("Desktop/test.PNG")
+image_two = Image.open("test.PNG")
 
 Image.Image.paste(image_one, image_two)
 
