@@ -3,7 +3,7 @@ from PIL import Image
 
 
 im2 = Image.open('christmas card.jpg')
-im2 = Image.open('canvas3.png')
+im1 = Image.open('canvas3.png')
 
 back_im = im1.copy()
 back_im.paste(im2, (100, 50))
