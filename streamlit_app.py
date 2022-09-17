@@ -4,9 +4,9 @@ from PIL import Image
 
 
 # Open images and store them in a list
-images = [Image.open(x) for x in ['christmas card.jpg', 'test.png']]
-total_width = 0
-max_height = 0
+images = [Image.open(x) for x in ['canvas.png', 'christmas card.jpg']]
+total_width = 2160
+max_height = 3840
 
 
 # find the width and height of the final image
