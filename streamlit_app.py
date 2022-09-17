@@ -22,4 +22,4 @@ for img in images:
   current_width += img.size[0]
 # Save the image
 new_img.save('NewImage.jpg')
-st.image(NewImage.jpg)
+st.image(new_img)
