@@ -10,9 +10,5 @@ image_one = Image.open("christmas card.jpg")
 #Second Image
 image_two = Image.open("test.png")
 
-Image.Image.paste(image_one, image_two)
-
-fig = plt.figure()
-plt.imshow(image_one)
-plt.axis("off")
-st.pyplot(fig)
+st.image(image_one)
+st.image(image_two)
