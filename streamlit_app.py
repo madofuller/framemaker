@@ -5,8 +5,8 @@ from PIL import Image
 
 # Open images and store them in a list
 images = [Image.open(x) for x in ['canvas3.png', 'christmas card.jpg']]
-total_width = 2160
-max_height = 3840
+total_width = 3840
+max_height = 2160
 
 
 # find the width and height of the final image
