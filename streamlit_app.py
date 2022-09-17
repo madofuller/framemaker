@@ -3,12 +3,21 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 
+# Open images and store them in a list
+images = [Image.open(x) for x in ['christmas car.jpg', 'test.png']]
+total_width = 0
+max_height = 0
+# find the width and height of the final image
+for img in images:
+    total_width += img.size[0]
+    max_height = max(max_height, img.size[1])
 
-#First Image
-image_one = Image.open("christmas card.jpg") 
-
-#Second Image
-image_two = Image.open("test.png")
-
-st.image(image_one)
-st.image(image_two)
+# create a new image with the appropriate height and width
+new_img = Image.new('RGB', (total_width, max_height))
+# Write the contents of the new image
+current_width = 0
+for img in images:
+  new_img.paste(img, (current_width,0))
+  current_width += img.size[0]
+# Save the image
+new_img.save('NewImage.jpg')
