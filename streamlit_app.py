@@ -4,7 +4,7 @@ from PIL import Image
 
 
 # Open images and store them in a list
-images = [Image.open(x) for x in ['canvas2.png', 'christmas card.jpg']]
+images = [Image.open(x) for x in ['canvas3.png', 'christmas card.jpg']]
 total_width = 2160
 max_height = 3840
 
