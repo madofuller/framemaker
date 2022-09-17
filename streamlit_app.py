@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 # Open images and store them in a list
-images = [Image.open(x) for x in ['christmas car.jpg', 'test.png']]
+images = [Image.open(x) for x in ['christmas card.jpg', 'test.png']]
 total_width = 0
 max_height = 0
 # find the width and height of the final image
