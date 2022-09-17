@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 #First Image
-image_one = Image.open("christmas card.jpeg") 
+image_one = Image.open("christmas card.jpg") 
 
 #Second Image
 image_two = Image.open("test.PNG")
